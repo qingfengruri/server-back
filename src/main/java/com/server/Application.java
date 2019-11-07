@@ -15,7 +15,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 
-@MapperScan("cn.no7player.mapper")
+@MapperScan("com.server.mapper")
 @SpringBootApplication
 public class Application {
     private static Logger logger = Logger.getLogger(Application.class);
